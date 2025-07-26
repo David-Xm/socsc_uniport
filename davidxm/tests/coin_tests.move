@@ -1,5 +1,5 @@
 #[test_only] // This module is only compiled for tests
-module coin::davidxm_tests; // Define the test module for p_tech
+module coin::davidxm_tests; // Define the test module for davidxm
 
 use coin::davidxm::{Self, DAVIDXM}; // Import the davidxm module and DAVIDXM struct
 use sui::coin::{TreasuryCap}; // Import TreasuryCap from sui::coin
